@@ -6,8 +6,8 @@ export default function RootLayout() {
     <>
       <Stack screenOptions= {{ headerShown: false}}>
         <Stack.Screen name="index"/>
-        <Stack.Screen name="Login"/>
-        <Stack.Screen name="SignUp"/>
+        <Stack.Screen name="login"/>
+        <Stack.Screen name="signup"/>
       </Stack>
       <StatusBar backgroundColor="white" style="dark"/>
     </>
